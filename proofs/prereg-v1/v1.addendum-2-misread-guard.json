@@ -1,0 +1,14 @@
+{
+  "name": "Lens & Ledger pre-registration v1, addendum 2: contest misread guard",
+  "stamped_before_first_use": true,
+  "created_utc": "2026-11-17T05:27:42Z",
+  "why": "The first full dry run (no submissions) showed the AI misreading a Central Pacific hurricane-names question (97% on names the market priced at 1-2.5%).",
+  "rule": {
+    "settled_outcomes": "market exactly 0 or 1 (known result): AI ignored",
+    "misread": "live market and |AI - market| > 0.5: AI view dropped for that outcome; in one-winner sets the whole question's AI view is dropped; no rationale published",
+    "empty_ai_view": "no rationale published"
+  },
+  "prompt_hash_unchanged": "dc5e99344b6d78c8410986e8d556af90ae82ec7c7c5a0c7185e132b077d6b396",
+  "pipeline_py_sha256": "6acb171608996ee29743ee01b4d7a02fdd4ace54e22440b2a42eab799b2e86da",
+  "code_commit": "d7e6ce320dd709dbe7818c615ff672e8127af884"
+}
