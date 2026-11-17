@@ -1,0 +1,24 @@
+{
+  "name": "Lens & Ledger pre-registration v1, addendum 1: forecast prompt and settings",
+  "stamped_before_first_use": true,
+  "created_utc": "2026-11-17T05:06:03Z",
+  "applies_to": "contest forecasts (Prophet Arena Weekly, then Metaculus) and the forecast role of the v1 accounts",
+  "prompt_files_sha256": {
+    "src/firm/forecast/prompts/forecast_v1.md": "4127712ad0cb26b3af2542380449ce3fba40cba87b0fb00af7e18b2fedb2b845"
+  },
+  "prompt_hash": "dc5e99344b6d78c8410986e8d556af90ae82ec7c7c5a0c7185e132b077d6b396",
+  "settings": {
+    "forecast_model": "claude-sonnet-5-5",
+    "effort": "medium",
+    "max_tokens": 16000,
+    "w_ai_logodds": 0.2,
+    "max_ai_outcomes": 25,
+    "clip": [
+      0.005,
+      0.995
+    ],
+    "news": "Google News RSS, last 14 days (GDELT fallback); items after decision time dropped",
+    "market": "mid if gap <= 25c (zero bid: min(ask/2, last)); settled markets use their result"
+  },
+  "code_commit": "d850a7d58fd898b8a08e49f00880ef4f3da89b6d"
+}
