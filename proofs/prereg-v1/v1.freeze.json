@@ -1,0 +1,20 @@
+{
+  "name": "Lens & Ledger pre-registration v1",
+  "approved_by": "Spiro",
+  "approved_utc_date": "2026-11-17",
+  "frozen_at_utc": "2026-11-17T03:38:18Z",
+  "simulated_fake_money_only": true,
+  "files_sha256": {
+    "prereg/v1.md": "be3b23fb316f54ccc4a8cc37f4e5ef76357cbec9efee08a54d81777d8df2b9d4",
+    "prereg/v1-plain.md": "4c5386d883775a1e65c9ebd730d3bbd1a8b66df5c0e43d6fc38ccd7f5ba4068b",
+    "config/strategy_v1.yaml": "fc78a8c2cc808d99b76f087bb65d596f3accb2ff997bae88bccc3ce0194ad59e",
+    "config/categories_v1.yaml": "9fcc4378b6428b332d937bccbb107c63a41721acd67b2b404b263a492551b1c6",
+    "config/universe.yaml": "8754fc1909ccb9ffe972bbd43b61eff4561f5ef50504385a9f93e359e4bb27ea",
+    "config/limits.yaml": "548022c8252e37389b45df8901ac6d36fb9e92ca39a5ae6f2bb5066b093ca256",
+    "config/fees.yaml": "19862b177697c8cbf39b249c414b9c178e36b1ad72faf24eebd9a93137bb5061",
+    "config/models.yaml": "2bc6700a0ee778550f50f30a84cca8d9ef2f9db450461a2087321feffc5b555b"
+  },
+  "root_sha256_of_sorted_lines": "8d6a36a432ddfcd85ec4f5d9e89a4b12f7f95e4ab91adb87697faee4c1ccc7dc",
+  "root_rule": "sha256 of lines '<sha256>  <path>\\n' sorted by path",
+  "prompt_addenda": "forecast prompts are hashed and stamped in addenda before first use"
+}
