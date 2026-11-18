@@ -1,0 +1,8 @@
+{
+ "what": "fingerprint of the results note of the one pre-registered time-capsule run (rules: proofs/prereg-v1/timecapsule-v1.md and .json)",
+ "file": "research/timecapsule_results_v1.md (private for now; the full text will be published later and must match this sha256 byte for byte)",
+ "sha256": "d2c4d099b9712e80bd93816f511087eb55d0a6f98f2cfcabca0cdae3d354eb7b",
+ "opentimestamps_proof": "timecapsule_results_v1.md.ots",
+ "labels": "simulated, retrospective, exploratory; crowd = Manifold play-money markets (data credit: Manifold)",
+ "published_utc": "2026-11-18"
+}
