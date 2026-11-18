@@ -1,0 +1,135 @@
+{
+ "name": "Lens & Ledger time-capsule scoring rules v1: pinned inputs",
+ "rules": "research/timecapsule_scoring_rules_v1.md, stamped as prereg/timecapsule-v1.md",
+ "rules_md_sha256": "28d8808adb62ce4d18b2f172762a65e68d363b170f10e44701a86292a7401def",
+ "created_utc": "2026-11-18T08:25:26Z",
+ "pinned": {
+  "pipeline_py_sha256": "6acb171608996ee29743ee01b4d7a02fdd4ace54e22440b2a42eab799b2e86da",
+  "prompt_sha256": "dc5e99344b6d78c8410986e8d556af90ae82ec7c7c5a0c7185e132b077d6b396",
+  "blend_py_sha256": "ec98e9356c29f0bd198d9056b7df126e1ee76d89053fe539f524625115a1a28a",
+  "llm_py_sha256": "d404f94a69f3019c1bad903fa7ca891a7dcaa178a42d661ff779b64b065c1c98",
+  "news_py_sha256": "ca6cbb4abcd679bbd2ff154e7086d97a24b115121b58367a1eae1a6a07142bce",
+  "timecapsule_py_sha256": "f41c4101d87455961e5ab179064af56421b148ee9903e0657d532920adfe234a",
+  "timecapsule_archive_py_sha256": "8d381a621030a422729c4d01104cdb2b1ad05a19bf1a4ca1f639b7d9c43d3b1f",
+  "timecapsule_news_py_sha256": "90e90398630a5f2c37a2e235ab87becb3a05cd9de7f2bf716619a7c28f489b77",
+  "timecapsule_baserates_py_sha256": "0139e2ee20caa6045af9c73be07c976b2c2f7a0ed603dbfe37bd10a75e4526bd",
+  "timecapsule_config_sha256": "7c1b1b362170cecf8819e99808e6e12c38516df98b3d87ebff924bab4dac5395",
+  "models_config_sha256": "2bc6700a0ee778550f50f30a84cca8d9ef2f9db450461a2087321feffc5b555b",
+  "forecast_model": "claude-sonnet-5-5",
+  "budget_config_sha256": "ae1f218e881b58bfb323ab9c15412c272fefc2fa5adaf631f14766dc68983b30",
+  "spend_py_sha256": "dd11c80c538008847aafb0855635f6c32b4eb70f24a18ff99612933594187d9b",
+  "archive_sha256": "235922044c5e91a430a9ec08be4e4957a02088f5a279b4bca87b3bb6d7d7620d",
+  "pool_sha256": "0f3da738f4870fb5cec8ff775623415d3c31ff615388afb186d1375ae46597af"
+ },
+ "stamps_required": [
+  "prereg/timecapsule-v1.json.ots",
+  "prereg/timecapsule-v1.md.ots"
+ ],
+ "build": {
+  "built_at": "2026-11-18T04:03:59Z",
+  "run_at": "2026-11-18T08:21:13Z",
+  "build_commit": "39eb2102cf81d8a15f6b895d66dfef0e62ba8a27",
+  "build_git_dirty": false,
+  "questions": 326,
+  "deadline_cohort": 129,
+  "asof_points": 1015
+ },
+ "run": {
+  "seed": 7,
+  "asof_per_question": 1,
+  "max_questions": 400,
+  "max_usd": 12.0,
+  "runs_allowed": 1,
+  "spend_category": "research",
+  "min_budget_room_usd": {
+   "research_this_budget_month": 12.0,
+   "overall_this_budget_month": 12.0
+  },
+  "needs_a_finished_probe": true,
+  "task_prefix": "timecapsule-v1-prereg",
+  "min_news_coverage": 0.9,
+  "news": "fetched before the run with prefetch-news (no AI) into news_cache/, saved only when Google answered (even with no headline); the run refuses unless saved headlines cover at least 90% of its tasks; the cache's sha256 is in the manifest; re-checked by the date rule on load; a task with nothing saved is fetched once more; Google failed but GDELT gave usable headlines = run with those (not saved); Google failed and GDELT gave no usable headline (failed or found nothing) = skipped with no AI call, listed by id in score.json; Google answered = run with whatever passed the date rule, possibly none ('none found')"
+ },
+ "probe": {
+  "n": 20,
+  "seed": 11,
+  "max_usd": 1.0,
+  "runs_allowed": "until one finishes; at most 3 that received any answer, then only a new stamped version (v2)",
+  "max_probes_with_answers": 3,
+  "min_usable_numbers": 10,
+  "must_carry_pins_sha256": true,
+  "only_before_the_preregistered_run": true,
+  "status": {
+   "finished": "every task attempted, not stopped early, and usable AI numbers on at least half of its tasks (10 of the 20)",
+   "incomplete": "at least one AI answer, but stopped early, not every task attempted, or usable AI numbers on fewer than half of its tasks (a run that crashed after starting counts here too)",
+   "aborted_before_start": "no AI call returned an answer of any kind"
+  },
+  "task_prefix": "timecapsule-v1-probe",
+  "ledger_calls_in_score_json": "billed probe calls in the spend ledger, per probe question; the answer cache is never cleared before the run"
+ },
+ "primary": {
+  "pair": [
+   "blend",
+   "crowd"
+  ],
+  "subset": "deadline_cohort",
+  "ai_failure": "blend = crowd (market-only, as submitted)"
+ },
+ "validity": {
+  "max_dropped_share": 0.1,
+  "max_ai_exception_share": 0.05,
+  "ai_exception_share": "deadline-cohort tasks whose AI call still failed after the retries, or failed with an error neither retried nor fatal (any 4xx other than auth, permission, billing or credit, 400 included) / deadline-cohort tasks attempted",
+  "max_ai_failures_in_a_row": 5,
+  "retries": {
+   "on": [
+    "429",
+    "529",
+    "other 5xx",
+    "408",
+    "timeout",
+    "connection error"
+   ],
+   "wait_s": "retry-after (or retry-after-ms) when given, kept within 1-300; else 15 * 2^k, at most 300",
+   "max_total_wait_s_per_task": 1800.0
+  },
+  "stop_invalid": [
+   "auth, permission, billing or credit error",
+   "missing key",
+   "another error raised by the Anthropic client library itself (not an HTTP status)",
+   "5 AI exceptions in a row",
+   "any budget cap",
+   "an interruption (Ctrl-C)",
+   "the run did not finish (no finish time in the manifest)"
+  ],
+  "counted_not_invalidating": [
+   "refusal",
+   "max_tokens",
+   "unparseable",
+   "out_of_range"
+  ],
+  "invalid_preregistered_run_uses_up_the_run": true,
+  "aborted_before_start": "no AI call returned an answer of any kind; recorded and reported; does not use up the run or the probe",
+  "key_checked_before_the_manifest": "present, and accepted by the free model lookup"
+ },
+ "bootstrap": {
+  "n": 2000,
+  "seed": 0,
+  "clusters": [
+   "cluster",
+   "linked"
+  ],
+  "stream": "one random.Random(0): the template interval's resamples first, then the linked one's",
+  "interval": "the 51st to the 1,950th of the 2,000 sorted resampled means, rounded to 4 decimals before they are compared with 0"
+ },
+ "scoring": {
+  "clip_every_variant": [
+   0.005,
+   0.995
+  ],
+  "crowd_shown_to_the_model_clipped": [
+   0.001,
+   0.999
+  ],
+  "suspect_probe_label": "possibly contaminated (probe suspect)"
+ }
+}
