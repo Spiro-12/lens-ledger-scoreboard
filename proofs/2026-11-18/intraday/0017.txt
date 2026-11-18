@@ -1,0 +1,13 @@
+Lens & Ledger decision-log fingerprint (paths, sizes and hashes only, no content)
+utc_date: 2026-11-18
+written_utc: 2026-11-18T00:17:36Z
+rolling_sha256: 51bac79fd6180c8925ed15a36aef71ea1d6e4f3fbeb5e14a2bff5957ed571981
+rule: sha256 of lines '<sha256>  <bytes>  <path relative to raw/>\n' sorted by path; each file hashed over its first <bytes> bytes
+files: 6
+
+9a13d3b1455f104039513e1ad82e736560ad5579b47eddd490ac954afc6b9a52  530  decisions/2026-11-18/contest_comments-00-20261118T001059-77677.jsonl.gz
+ef5c1ca15dcb969ecdb12ab93d007af494eebdd097931679e08689f39ca004c8  1330  decisions/2026-11-18/contest_forecasts-00-20261118T001059-77677.jsonl.gz
+71930c10a28852c64d65531597a5147aa9d24ccae1e4829cce145d3a670f30f5  230  decisions/2026-11-18/contest_submissions-00-20261118T001059-77677.jsonl.gz
+e242056a342f69bd45536e0ecf0548ae0294a3a7c8c910641d45af57530451d8  594504  decisions/2026-11-18/shop_quotes_dev-00-20261117T131024-41673.jsonl.gz
+03d3799c8794e52db84bec6c6da8c4472a330ae267a26c2dd5dfcc2f61e83cac  965  sim/2026-11-18/shop_ledger_dev-00-20261117T131024-41673.jsonl.gz
+9d1ded0652501ff50d031266244a847f89d46d0463717a81d8ef2ebf810f9d73  183412  sim/2026-11-18/shop_orders_dev-00-20261117T131024-41673.jsonl.gz
