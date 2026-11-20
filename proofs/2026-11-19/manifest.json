@@ -1,0 +1,83 @@
+{
+  "utc_date": "2026-11-19",
+  "simulated_fake_money_only": true,
+  "files": [
+    {
+      "path": "decisions/2026-11-19/contest_comments-09-20261119T092634-49547.jsonl.gz",
+      "sha256": "a4b13d6ab91ffe75e36ae90f9a32cd0a42fa3b36a8d95cf366b6911854d2e845",
+      "bytes": 546
+    },
+    {
+      "path": "decisions/2026-11-19/contest_comments-18-20261119T183014-31251.jsonl.gz",
+      "sha256": "7f0c32c506baa85eb7b5fcdc4c1a07b519680bf9a33d21789525e2aa7dd31cf8",
+      "bytes": 540
+    },
+    {
+      "path": "decisions/2026-11-19/contest_forecasts-09-20261119T092634-49547.jsonl.gz",
+      "sha256": "8ee93f692b95401c33a4cfa85d2ac1ceb067ed03287ce287696e5fc7da43aca5",
+      "bytes": 1417
+    },
+    {
+      "path": "decisions/2026-11-19/contest_forecasts-18-20261119T183014-31251.jsonl.gz",
+      "sha256": "3e9184aded0f634264297d6f836a048e0756532148f91663644641745db4f0ec",
+      "bytes": 1787
+    },
+    {
+      "path": "decisions/2026-11-19/contest_submissions-09-20261119T092634-49547.jsonl.gz",
+      "sha256": "5b052d61dc62c872323cf8b06a6fb7eb21240ae1433ee23952eebb94992645c9",
+      "bytes": 232
+    },
+    {
+      "path": "decisions/2026-11-19/contest_submissions-18-20261119T183014-31251.jsonl.gz",
+      "sha256": "44b0585a1229768988d0c11dd13820dbc045adb4c16ed89b9504dd49e874dc26",
+      "bytes": 232
+    },
+    {
+      "path": "news/2026-11-19/headlines-09-20261119T092634-49547.jsonl.gz",
+      "sha256": "7a3fc98d71316bfe7a93a80f4438ff1b5033311debed51bd5a6a8e20a2ed2feb",
+      "bytes": 1883
+    },
+    {
+      "path": "news/2026-11-19/headlines-18-20261119T183014-31251.jsonl.gz",
+      "sha256": "891cc437358af5026725e0ebf9edea2025b40062d1690ae444829eee7919a79a",
+      "bytes": 4202
+    },
+    {
+      "path": "ops/2026-11-19/spend-09-20261119T092634-49547.jsonl.gz",
+      "sha256": "ff573ed2dd9dc2bc53a22d5397e6b57c50a0ad42b3d53281b57b886a39c1671b",
+      "bytes": 196
+    },
+    {
+      "path": "ops/2026-11-19/spend-14-20261119T143202-28707.jsonl.gz",
+      "sha256": "19784f9585b35be8073cf001fd66152982ebcc91ee4446b8687e4ab75443e0d0",
+      "bytes": 2193
+    },
+    {
+      "path": "ops/2026-11-19/spend-14-20261119T143259-29184.jsonl.gz",
+      "sha256": "f83a41d2b146ca5e185252eadfaa870955e7e4ab68415ae900a600cb1e7f5a18",
+      "bytes": 72577
+    },
+    {
+      "path": "ops/2026-11-19/spend-15-20261119T143259-29184.jsonl.gz",
+      "sha256": "7166e1609a51b9b24774d21c32f83ff2bb19693eeffb6ad6fa69c43935dc1c99",
+      "bytes": 35139
+    },
+    {
+      "path": "ops/2026-11-19/spend-16-20261119T160928-70778.jsonl.gz",
+      "sha256": "497b2db16a362f4cedeedf11de4802958053e894d008648b4cab84a2ddf6244c",
+      "bytes": 874
+    },
+    {
+      "path": "ops/2026-11-19/spend-16-20261119T161003-70997.jsonl.gz",
+      "sha256": "cbaece6f5d4534dd8ec4451174c76afc98de898e15922c5221e5b6d5c7012a1e",
+      "bytes": 70131
+    },
+    {
+      "path": "ops/2026-11-19/spend-18-20261119T183014-31251.jsonl.gz",
+      "sha256": "16222671566b782842689e7daabaad411bb4631af8f241584abfdd242e97f899",
+      "bytes": 198
+    }
+  ],
+  "root_sha256": "78dafb5df1412e52f1e92b0d8a245e4529cece3fde30b1b5513ef5d9f8991d22",
+  "root_rule": "sha256 of lines '<sha256>  <path>\\n' sorted by path"
+}
