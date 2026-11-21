@@ -1,0 +1,98 @@
+{
+  "utc_date": "2026-11-20",
+  "simulated_fake_money_only": true,
+  "files": [
+    {
+      "path": "decisions/2026-11-20/contest_comments-03-20261120T033347-83788.jsonl.gz",
+      "sha256": "c0e1f8565deddb549420871cf48d4bed436b9004864442118642f84e9b21f7eb",
+      "bytes": 554
+    },
+    {
+      "path": "decisions/2026-11-20/contest_comments-09-20261120T093700-80989.jsonl.gz",
+      "sha256": "46b52bfffec612e388674d2a48086b6b4976d78fb1fc166924d81c63661dbecf",
+      "bytes": 534
+    },
+    {
+      "path": "decisions/2026-11-20/contest_comments-15-20261120T153952-77863.jsonl.gz",
+      "sha256": "30bd02ce22bf2a519f70457546cd640fc2c972221fe2bc40f0adeac45a6ad682",
+      "bytes": 550
+    },
+    {
+      "path": "decisions/2026-11-20/contest_forecasts-03-20261120T033347-83788.jsonl.gz",
+      "sha256": "830d2b439afa5357029b2fb519bdeea987c46300d582784065658328505c1c0a",
+      "bytes": 2948
+    },
+    {
+      "path": "decisions/2026-11-20/contest_forecasts-09-20261120T093700-80989.jsonl.gz",
+      "sha256": "94a14181bce996c9ddd588fac88d12770ac18768c12295038a91c9dafe3a9d94",
+      "bytes": 1037
+    },
+    {
+      "path": "decisions/2026-11-20/contest_forecasts-15-20261120T153952-77863.jsonl.gz",
+      "sha256": "00380510c48ec21d9e8d48192a16ec0c70b2f80a6f9b35a78aac8476a73dd3f8",
+      "bytes": 1968
+    },
+    {
+      "path": "decisions/2026-11-20/contest_submissions-03-20261120T033347-83788.jsonl.gz",
+      "sha256": "9ab16167bc1b841bcb068d417dcd6479728dcb1f96aaa2a034c5d7b97dba94ed",
+      "bytes": 233
+    },
+    {
+      "path": "decisions/2026-11-20/contest_submissions-09-20261120T093700-80989.jsonl.gz",
+      "sha256": "4e40ca65a483ac62fba79c2dabaa18b4b277dfe39935aeb6229a2a56906c41bd",
+      "bytes": 232
+    },
+    {
+      "path": "decisions/2026-11-20/contest_submissions-15-20261120T153952-77863.jsonl.gz",
+      "sha256": "39718b086db6aab270bad4d95ae76158bb9b7ad359fd6f68fbca777f3230f64b",
+      "bytes": 232
+    },
+    {
+      "path": "news/2026-11-20/headlines-03-20261120T033347-83788.jsonl.gz",
+      "sha256": "bca09fb472a6db07ebfdad8ba0e4a578e2ab2dbb75e9e6183ad2a15d098352ce",
+      "bytes": 203
+    },
+    {
+      "path": "news/2026-11-20/headlines-09-20261120T093700-80989.jsonl.gz",
+      "sha256": "e1a413ec3999bfcd21bf4101b4376a7532a0b5bed6da019a379ce2e307ac52cd",
+      "bytes": 238
+    },
+    {
+      "path": "news/2026-11-20/headlines-15-20261120T153952-77863.jsonl.gz",
+      "sha256": "b594978210448ad8b0de4cf74dbdaf81b9ccf0dc9471d5cddd0890a492fd27d9",
+      "bytes": 4850
+    },
+    {
+      "path": "ops/2026-11-20/errors-08-wv2f-20261120T080232-22267.jsonl.gz",
+      "sha256": "71f16aa7598d134f9e2cc8127f07d71dd8e73e09cf6038083a3731e0c7f5455c",
+      "bytes": 189
+    },
+    {
+      "path": "ops/2026-11-20/spend-03-20261120T033347-83788.jsonl.gz",
+      "sha256": "d02c11339eda523717ad1612641e1e903b6e1e356d6ec98a8cc2a9d2ba188e7c",
+      "bytes": 195
+    },
+    {
+      "path": "ops/2026-11-20/spend-09-20261120T093700-80989.jsonl.gz",
+      "sha256": "9c8650583ed1049a14f2a23ee4f6e0543053ccebe2579e3feedd1b6975b7ac05",
+      "bytes": 196
+    },
+    {
+      "path": "ops/2026-11-20/spend-12-20261120T122807-96510.jsonl.gz",
+      "sha256": "d5e12c4ea173ec632f717d6c07171af555c8f9381903373e4c74fdafab8d5775",
+      "bytes": 2642
+    },
+    {
+      "path": "ops/2026-11-20/spend-12-20261120T122931-97278.jsonl.gz",
+      "sha256": "259322f74e148d5b60022aad9c110a7e74ed51a2430acd8cc0c79b7a5b1d12f8",
+      "bytes": 63926
+    },
+    {
+      "path": "ops/2026-11-20/spend-15-20261120T153952-77863.jsonl.gz",
+      "sha256": "fa95bbb7520c63b596edb8553144d17706a3f7f2c2049e7432a784d37aae9686",
+      "bytes": 196
+    }
+  ],
+  "root_sha256": "daf87dd6177f2aab948ba007fa759a25c7991e32c8caa5d3988f30e389082232",
+  "root_rule": "sha256 of lines '<sha256>  <path>\\n' sorted by path"
+}
