@@ -1,0 +1,58 @@
+{
+  "utc_date": "2026-11-21",
+  "simulated_fake_money_only": true,
+  "files": [
+    {
+      "path": "decisions/2026-11-21/contest_comments-12-20261121T120410-90071.jsonl.gz",
+      "sha256": "94bbc3b7214c9c9613601aaf7e50adedd8c1a1a3e7b443a30a327da2c2766131",
+      "bytes": 537
+    },
+    {
+      "path": "decisions/2026-11-21/contest_comments-21-20261121T210746-99392.jsonl.gz",
+      "sha256": "b87aca6e2363a478aa4d5f23263ac198a7a5a3a2363603ba0f02c8b5850b73b3",
+      "bytes": 535
+    },
+    {
+      "path": "decisions/2026-11-21/contest_forecasts-12-20261121T120410-90071.jsonl.gz",
+      "sha256": "251f596f6482858eca333850ae143a54a78b3a78e67a95eea184e1d5972f4b10",
+      "bytes": 1277
+    },
+    {
+      "path": "decisions/2026-11-21/contest_forecasts-21-20261121T210746-99392.jsonl.gz",
+      "sha256": "3f33c33df0b1472222abba66c5a77161475b8df342a7c4f7c7671c5822e055b7",
+      "bytes": 1021
+    },
+    {
+      "path": "decisions/2026-11-21/contest_submissions-12-20261121T120410-90071.jsonl.gz",
+      "sha256": "82b5719e2959d449f2dae85a104cf5d8ac914564b96a220e2d60fa31790781e5",
+      "bytes": 232
+    },
+    {
+      "path": "decisions/2026-11-21/contest_submissions-21-20261121T210746-99392.jsonl.gz",
+      "sha256": "00f002995f8c63a322e748128f5e54152d29941547e00d550593cdbeb2748e9f",
+      "bytes": 231
+    },
+    {
+      "path": "news/2026-11-21/headlines-12-20261121T120410-90071.jsonl.gz",
+      "sha256": "ab2baa0a1a293d2fcd3e6b692dcd8387600a2d7d5d68237bd1f7810561e443f4",
+      "bytes": 2105
+    },
+    {
+      "path": "news/2026-11-21/headlines-21-20261121T210746-99392.jsonl.gz",
+      "sha256": "1677c9ee53607b650c8ae05034acff500e038789bf7f5773e57bb75a39abfef2",
+      "bytes": 219
+    },
+    {
+      "path": "ops/2026-11-21/spend-12-20261121T120410-90071.jsonl.gz",
+      "sha256": "75c6a9c85d0c38490aed935fe695e843ea3eeae5c7b655ec569f922929bcdf34",
+      "bytes": 196
+    },
+    {
+      "path": "ops/2026-11-21/spend-21-20261121T210746-99392.jsonl.gz",
+      "sha256": "305e41ead32adcca3c3434fb90ac89c8f1b5072fe2d4c0571bbceff01177d2d0",
+      "bytes": 196
+    }
+  ],
+  "root_sha256": "01caacd258dbe2c56fcd80983f8196e434162ce113ee5ed82ff6bbce141810b1",
+  "root_rule": "sha256 of lines '<sha256>  <path>\\n' sorted by path"
+}
