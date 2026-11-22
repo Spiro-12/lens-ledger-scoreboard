@@ -1,0 +1,8 @@
+Lens & Ledger decision-log fingerprint (paths, sizes and hashes only, no content)
+utc_date: 2026-11-22
+written_utc: 2026-11-22T00:32:23Z
+rolling_sha256: 51bd1bbbee4862740cbe24fbc584e90b1f597b38b37e8b2257f528095b393d50
+rule: sha256 of lines '<sha256>  <bytes>  <path relative to raw/>\n' sorted by path; each file hashed over its first <bytes> bytes
+files: 1
+
+cb48c3b3099c5217b33c46127394423e01ea7eda9633ff1c7438900036ac435a  247905  decisions/2026-11-22/contest_forecasts-00-20261122T001002-3023.jsonl.gz
