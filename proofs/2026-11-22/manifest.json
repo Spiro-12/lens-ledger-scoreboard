@@ -1,0 +1,93 @@
+{
+  "utc_date": "2026-11-22",
+  "simulated_fake_money_only": true,
+  "files": [
+    {
+      "path": "decisions/2026-11-22/contest_forecasts-00-20261122T001002-3023.jsonl.gz",
+      "sha256": "a2cf9188571a78b9873b2916f41f855da2ced30a4920022888609b0ffd9df791",
+      "bytes": 546445
+    },
+    {
+      "path": "decisions/2026-11-22/contest_forecasts-01-20261122T001002-3023.jsonl.gz",
+      "sha256": "6773c24195b4f4c0fbc4a8e087893e146d80ef155aa8a281ecce69a6bd77fec5",
+      "bytes": 105862
+    },
+    {
+      "path": "decisions/2026-11-22/contest_forecasts-01-20261122T010041-3023.jsonl.gz",
+      "sha256": "432caead804c264623d9de8cc69c4f6270ce79ab5a4b22108f4f3e50c911f0b2",
+      "bytes": 201473
+    },
+    {
+      "path": "decisions/2026-11-22/contest_submissions-01-20261122T001002-3023.jsonl.gz",
+      "sha256": "244667e3f217c2811f7b09f94680b05fcf2cf4152b916810e3d5a4a40b248a39",
+      "bytes": 11422
+    },
+    {
+      "path": "decisions/2026-11-22/contest_submissions-01-20261122T010041-3023.jsonl.gz",
+      "sha256": "05a4e48bbcfe8b2e0cdef67108a6f5f2eda10c94cdeb98870087f30fb84840ae",
+      "bytes": 11407
+    },
+    {
+      "path": "forecastbench/2026-11-22/forecast_file-01-20261122T001002-3023.jsonl.gz",
+      "sha256": "83413afb263fa5a6e6e57f78fa7acc77455c4568608bd3bbaea4fbce8d73ab2a",
+      "bytes": 224
+    },
+    {
+      "path": "forecastbench/2026-11-22/forecast_file-01-20261122T010041-3023.jsonl.gz",
+      "sha256": "be78cec990a188c2f83b65c69ca818df57f75784e6dc69563462da967bd4ba7b",
+      "bytes": 227
+    },
+    {
+      "path": "forecastbench/2026-11-22/inputs-00-20261122T001002-3023.jsonl.gz",
+      "sha256": "4787b28dc6c4ea48fa5443fc7ac12a78e5c2cb6a84e776fc70d4eadfb265cf4f",
+      "bytes": 4060
+    },
+    {
+      "path": "forecastbench/2026-11-22/inputs-01-20261122T010041-3023.jsonl.gz",
+      "sha256": "8094a9f3c86116ba77644ba2b492f98abd05d05bb6df0fc8aa8a244ba74361fa",
+      "bytes": 185
+    },
+    {
+      "path": "forecastbench/2026-11-22/question_set-00-20261122T001002-3023.jsonl.gz",
+      "sha256": "92cafd2d27f2e7469d1aa59ac016267b156141a380e010cd2f146af811d8424d",
+      "bytes": 205074
+    },
+    {
+      "path": "forecastbench/2026-11-22/question_set-01-20261122T010041-3023.jsonl.gz",
+      "sha256": "d8fb1eabb418b2c6e54c535dfe764aacc624ee5e6e63928c43f0558467e2cbb8",
+      "bytes": 205076
+    },
+    {
+      "path": "forecastbench/2026-11-22/series-00-20261122T001002-3023.jsonl.gz",
+      "sha256": "5a0557d5f4675492b59ef6d1e2ab5008cef999b5d178f388e00bebee8dcf31c3",
+      "bytes": 135638
+    },
+    {
+      "path": "forecastbench/2026-11-22/series-01-20261122T001002-3023.jsonl.gz",
+      "sha256": "c2223d11965722e55bd9afda4f60b142cd73e1ebb29fed698b167b2b93b36759",
+      "bytes": 147863
+    },
+    {
+      "path": "news/2026-11-22/headlines-00-20261122T001002-3023.jsonl.gz",
+      "sha256": "fa67c81a64101892a360228b53bdf6dcf7686643acf7efa39b936a65650a2769",
+      "bytes": 429666
+    },
+    {
+      "path": "ops/2026-11-22/spend-00-20261122T001002-3023.jsonl.gz",
+      "sha256": "03423ea7eeec292a0ef57abc12903d6cda6d6a637d01e3fe050e1ec71e2b0870",
+      "bytes": 59702
+    },
+    {
+      "path": "ops/2026-11-22/spend-01-20261122T015242-5137.jsonl.gz",
+      "sha256": "11a2f58654cdb56b9204fcfe3bd4b031e47493e4e8622579b94516f446a53167",
+      "bytes": 72772
+    },
+    {
+      "path": "ops/2026-11-22/spend-02-20261122T015242-5137.jsonl.gz",
+      "sha256": "1c52b56ba9fb5bf79321637ec459f926949e2beca50b05ddc7879b9d418a2173",
+      "bytes": 108446
+    }
+  ],
+  "root_sha256": "8e4d9f94414fdcee28d9d4fc335a9c972430af2753646948a415450d23c7468a",
+  "root_rule": "sha256 of lines '<sha256>  <path>\\n' sorted by path"
+}
