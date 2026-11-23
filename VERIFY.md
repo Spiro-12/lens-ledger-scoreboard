@@ -10,7 +10,7 @@
 
 ## 2. Check a ten-minute fingerprint (`proofs/<date>/intraday/<time>.txt`)
 
-Every 10 minutes we write one of these files. It lists every decision-log file written so far that UTC day, one line each:
+Every 10 minutes we write one of these files. It lists every decision-log file written so far that UTC day and, from 23 Nov 2026, every forecast file our forward tests (weather highs and lows, flu proving grounds) wrote that day (paths `forward/<test>/...`), one line each:
 
     <sha256>  <bytes>  <path>
 
@@ -25,4 +25,4 @@ On a Mac without `sha256sum`, use `shasum -a 256` in its place in both commands.
 Notes
 - Files named `next-day-HHMM.txt` were written just after midnight UTC for the day before. They cover the last minutes of that day.
 - A stamp may stay "pending" for a few hours. Pending is normal.
-- Daily files (`proofs/<date>/manifest.json`, `manifest.root.txt` and its `.ots`) fingerprint everything written that day, including raw data we keep private.
+- Daily files (`proofs/<date>/manifest.json`, `manifest.root.txt` and its `.ots`) fingerprint the files our collectors and logs wrote that UTC day in our private raw-data folder and, from 23 Nov 2026, our forward tests' forecast files written that day (`forward/<test>/...`). They do not cover everything we keep (research and backtest files are not included).
