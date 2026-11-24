@@ -1,0 +1,8 @@
+Lens & Ledger decision-log and forward-forecast fingerprint (paths, sizes and hashes only, no content)
+utc_date: 2026-11-24
+written_utc: 2026-11-24T01:38:19Z
+rolling_sha256: 75868e61fbd7be65eb3a23c08fd603880bf7a7c6f1fce21670ab360748bc1016
+rule: sha256 of lines '<sha256>  <bytes>  <path>\n' sorted by path (path relative to raw/, or forward/<label>/... for forward-test forecast files); each file hashed over its first <bytes> bytes
+files: 1
+
+c9e830dc9318a8c7856a6771ec9949054af630db0e31edc59756e7c30bacc9a3  226086  forward/weather_v1_skill/2026-11-24.json
