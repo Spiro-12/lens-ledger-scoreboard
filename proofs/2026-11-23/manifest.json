@@ -1,0 +1,215 @@
+{
+  "utc_date": "2026-11-23",
+  "simulated_fake_money_only": true,
+  "files": [
+    {
+      "path": "acled/2026-11-23/Africa_aggregated_data_up_to_week_of-2026-11-07.xlsx",
+      "sha256": "b0df9dae0fb3f21fccd7f8c7c5ddd23d07711c3ddf2bc20bac5c055756cfeb26",
+      "bytes": 12634405
+    },
+    {
+      "path": "acled/2026-11-23/Asia-Pacific_aggregated_data_up_to_week_of-2026-11-07.xlsx",
+      "sha256": "e715934626a464dedb69a482e130e5aa7c917a812957437bfa17ee8ae4785cab",
+      "bytes": 9922212
+    },
+    {
+      "path": "acled/2026-11-23/Europe-Central-Asia_aggregated_data_up_to_week_of-2026-11-07.xlsx",
+      "sha256": "1b2a78b2b6d13062ad2496fd8179afe3a777507b8d103879f215f235ebf928a2",
+      "bytes": 5734950
+    },
+    {
+      "path": "acled/2026-11-23/Latin-America-the-Caribbean_aggregated_data_up_to_week_of-2026-11-07.xlsx",
+      "sha256": "923193777ad52a5e4e618a1973761b779106473f571696c4c38e5ba8da67e7c6",
+      "bytes": 8382590
+    },
+    {
+      "path": "acled/2026-11-23/Middle-East_aggregated_data_up_to_week_of-2026-11-07.xlsx",
+      "sha256": "e7097dc7a9adaaf13a6488c1a3a1864af40b90389d3f1b06da5a2980502591f0",
+      "bytes": 6934200
+    },
+    {
+      "path": "acled/2026-11-23/US-and-Canada_aggregated_data_up_to_week_of-2026-11-07.xlsx",
+      "sha256": "50fb16c713808939850775e39d0270fdd1752335bef7b25b153e1df963fe9206",
+      "bytes": 1113580
+    },
+    {
+      "path": "decisions/2026-11-23/contest_comments-00-20261123T001832-56363.jsonl.gz",
+      "sha256": "d0441fd0aded20581ded4afbd6fa6290097cdc0850b1777146ab91a46fe5f757",
+      "bytes": 532
+    },
+    {
+      "path": "decisions/2026-11-23/contest_comments-06-20261123T062208-99283.jsonl.gz",
+      "sha256": "2679fe147fd9eb12520ab72b475d77663ba53efb3435517052f23dfc412d3aae",
+      "bytes": 533
+    },
+    {
+      "path": "decisions/2026-11-23/contest_comments-14-20261123T142535-21035.jsonl.gz",
+      "sha256": "c6b21d6ff904187811323246a2fb17940fd8b76d4010cf2ddb7ce6e4f0647940",
+      "bytes": 537
+    },
+    {
+      "path": "decisions/2026-11-23/contest_comments-15-20261123T152617-65616.jsonl.gz",
+      "sha256": "fee3c74ceab026e0d1ebc02f29fea7b8fd4a299f083911eaa575ce97eec3ee81",
+      "bytes": 545
+    },
+    {
+      "path": "decisions/2026-11-23/contest_forecasts-00-20261123T001832-56363.jsonl.gz",
+      "sha256": "108bdcaba5cc9ccb9b8873b2d0a49a485dba19f80add6168f046fb78164c487d",
+      "bytes": 2199
+    },
+    {
+      "path": "decisions/2026-11-23/contest_forecasts-06-20261123T062208-99283.jsonl.gz",
+      "sha256": "1606e01f806c3252672d68731a2747c0157176b0915bf934f5b9b5cccdd7d35f",
+      "bytes": 1046
+    },
+    {
+      "path": "decisions/2026-11-23/contest_forecasts-14-20261123T142535-21035.jsonl.gz",
+      "sha256": "f01e8b2402606550fc572a667a14bb272f7333a031d9611df6558dd784db3fdc",
+      "bytes": 1891
+    },
+    {
+      "path": "decisions/2026-11-23/contest_forecasts-15-20261123T152617-65616.jsonl.gz",
+      "sha256": "c77f812c4b5200a542c633bdaec8f5ea96be8daf5d10e067758b8d5913808e50",
+      "bytes": 1320
+    },
+    {
+      "path": "decisions/2026-11-23/contest_submissions-00-20261123T001832-56363.jsonl.gz",
+      "sha256": "7e4453525693b3a84fbeab46bb7b2e864a75c442d1173e1eb198d01d9c6e3662",
+      "bytes": 232
+    },
+    {
+      "path": "decisions/2026-11-23/contest_submissions-06-20261123T062208-99283.jsonl.gz",
+      "sha256": "d694631b4ef7edb531e5da41e7184b45e1f3c830a196da62a61dd9540658c1f8",
+      "bytes": 231
+    },
+    {
+      "path": "decisions/2026-11-23/contest_submissions-14-20261123T142535-21035.jsonl.gz",
+      "sha256": "5959451cbfbd79b11800a3206c05e36c37f52f1ebe6d4eaa379969be5b368427",
+      "bytes": 232
+    },
+    {
+      "path": "decisions/2026-11-23/contest_submissions-15-20261123T152617-65616.jsonl.gz",
+      "sha256": "997eaeb6b701e40842e1ee990e12bf460c7d67a46059f88232a7a01a63eab2f4",
+      "bytes": 232
+    },
+    {
+      "path": "news/2026-11-23/headlines-00-20261123T001832-56363.jsonl.gz",
+      "sha256": "ef555fcb7ce183784a8f5d714d3ef3a259a60786f2bae32092ef3a0d5a803d97",
+      "bytes": 2017
+    },
+    {
+      "path": "news/2026-11-23/headlines-06-20261123T062208-99283.jsonl.gz",
+      "sha256": "6d45683827155966b0d5cd513e4db70a6c2b9b9671a92a0a8f38ac3a2c97a0ec",
+      "bytes": 481
+    },
+    {
+      "path": "news/2026-11-23/headlines-14-20261123T142535-21035.jsonl.gz",
+      "sha256": "e1653c6fbc2f686ae83300f1901323b696a6175ffa34cc31fefa451c030d93d3",
+      "bytes": 3627
+    },
+    {
+      "path": "news/2026-11-23/headlines-15-20261123T152617-65616.jsonl.gz",
+      "sha256": "64cec51fedf5fba560a7c854a0b4fbef8814fba94b2014b8a71d822322fc8a2a",
+      "bytes": 1604
+    },
+    {
+      "path": "ops/2026-11-23/errors-12-20261123T124439-24925.jsonl.gz",
+      "sha256": "bbd11a93e6c18845c4b595db9d7b4b8ea34d31fdb812bb8e97f00b297d05135e",
+      "bytes": 176
+    },
+    {
+      "path": "ops/2026-11-23/errors-15-20261123T152406-16170.jsonl.gz",
+      "sha256": "cd1a0cd41b9f567fbd8123ef25c93e8c52bed7b88cdf560d083243255012208c",
+      "bytes": 294
+    },
+    {
+      "path": "ops/2026-11-23/errors-16-20261123T162406-16170.jsonl.gz",
+      "sha256": "aa8b6e2469cc8e1812c99c431261c7a05f78ea58a16930ee6b465b1a6a53095d",
+      "bytes": 293
+    },
+    {
+      "path": "ops/2026-11-23/errors-17-pubcounts-20261123T171747-56877.jsonl.gz",
+      "sha256": "d8d75f0decaa286a9f479c51da79c4c02a5425f7eb16fce001b1c2aba4d834c5",
+      "bytes": 184
+    },
+    {
+      "path": "ops/2026-11-23/errors-18-20261123T182532-63469.jsonl.gz",
+      "sha256": "e8dd29ada342a9b815c10287a12a5ae43d6b4827e473cfe8f57cd7eeaa658c1e",
+      "bytes": 324
+    },
+    {
+      "path": "ops/2026-11-23/errors-19-20261123T192532-63469.jsonl.gz",
+      "sha256": "af63d3a2582dca79caf06bb87a544c3ae86233fbda3ab47873e0e0d962b0616a",
+      "bytes": 326
+    },
+    {
+      "path": "ops/2026-11-23/errors-20-20261123T202532-63469.jsonl.gz",
+      "sha256": "d52195a4c5a04b4fbb34ef15d186fba051024543cfc5256e34880c92cfb3156b",
+      "bytes": 327
+    },
+    {
+      "path": "ops/2026-11-23/errors-21-20261123T212533-63469.jsonl.gz",
+      "sha256": "35ac5fe2c6ea110f4f7fe8e682a3e736886d740fea44b1f77e25910db28ae2f6",
+      "bytes": 327
+    },
+    {
+      "path": "ops/2026-11-23/errors-22-20261123T222533-63469.jsonl.gz",
+      "sha256": "18c3a78e240793bc3fa2ff4023290de2fc5890c35e8f2c9b0f95a460c8255ca9",
+      "bytes": 332
+    },
+    {
+      "path": "ops/2026-11-23/errors-22-20261123T222543-63469.jsonl.gz",
+      "sha256": "38b3a382cb4238434e6afbc4c350364537d3520d6ba251b34101d3e732f917d4",
+      "bytes": 270
+    },
+    {
+      "path": "ops/2026-11-23/errors-23-20261123T232552-63469.jsonl.gz",
+      "sha256": "8e8c1956eac13e18188bfc637584c3d12394aa2cbe23c68483ddb64d1c2f7ed4",
+      "bytes": 605
+    },
+    {
+      "path": "ops/2026-11-23/spend-00-20261123T001832-56363.jsonl.gz",
+      "sha256": "83aebd955a7382e45aeb4db44d22ab259d2b5f3d861879cf3dc4f211adae545a",
+      "bytes": 195
+    },
+    {
+      "path": "ops/2026-11-23/spend-06-20261123T062208-99283.jsonl.gz",
+      "sha256": "6c8cbe9c58903b010aad28028e93751257baaa50b71cd188a521a57c47f950d9",
+      "bytes": 197
+    },
+    {
+      "path": "ops/2026-11-23/spend-11-20261123T112411-68550.jsonl.gz",
+      "sha256": "4c8f51c38806949b004f16b466a0ea83ebbb53599a70df18a1672546e1b622bb",
+      "bytes": 8673
+    },
+    {
+      "path": "ops/2026-11-23/spend-14-20261123T142535-21035.jsonl.gz",
+      "sha256": "7851df63fa044683fca9b6ac270f445f3da30a69c8209e7a54fc585c572d3d0a",
+      "bytes": 197
+    },
+    {
+      "path": "ops/2026-11-23/spend-15-20261123T152617-65616.jsonl.gz",
+      "sha256": "d868ed7d4b9e7e43dc05e8b5488183ea29aa44af5d95adbe0dc454cf623e02e2",
+      "bytes": 195
+    },
+    {
+      "path": "forward/weather_v2_highs/2026-11-24.json",
+      "sha256": "4882042650cf24768489abf98f561e8dd562dcfec22d1cc908d200e1d074300f",
+      "bytes": 58940
+    },
+    {
+      "path": "forward/weather_v2_lows/2026-11-24.json",
+      "sha256": "2be530d4e6efc7df98e1bc073d5bcdefea3fd65a3d04b05cde4157eaf491dc0e",
+      "bytes": 62894
+    }
+  ],
+  "root_sha256": "fab2526c8f0e16d20f0323624c0f7ecb5634e1a98e6e99d1cc312d192c6190a2",
+  "root_rule": "sha256 of lines '<sha256>  <path>\\n' sorted by path",
+  "forward_sources": {
+    "forward/weather_v2_highs/": "forecast files, each written once before its answer is known (weather: before the forecast day starts; proving grounds: before the first official print), by the forward test in the private folder weather_v2/forward/forecasts/; listed on the UTC date their file was last modified (written)",
+    "forward/weather_v2_lows/": "forecast files, each written once before its answer is known (weather: before the forecast day starts; proving grounds: before the first official print), by the forward test in the private folder weather_v2_lows_forward/forecasts/; listed on the UTC date their file was last modified (written)",
+    "forward/weather_v1_skill/": "forecast files, each written once before its answer is known (weather: before the forecast day starts; proving grounds: before the first official print), by the forward test in the private folder weather_skill/forecasts/; listed on the UTC date their file was last modified (written)",
+    "forward/proving_ground_v1/": "forecast files, each written once before its answer is known (weather: before the forecast day starts; proving grounds: before the first official print), by the forward test in the private folder proving_ground/forward/forecasts/; listed on the UTC date their file was last modified (written)",
+    "forward/proving_ground_v2/": "forecast files, each written once before its answer is known (weather: before the forecast day starts; proving grounds: before the first official print), by the forward test in the private folder proving_ground_v2/forward/forecasts/; listed on the UTC date their file was last modified (written)"
+  }
+}
