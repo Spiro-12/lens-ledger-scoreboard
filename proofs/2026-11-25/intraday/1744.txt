@@ -1,0 +1,23 @@
+Lens & Ledger decision-log and forward-forecast fingerprint (paths, sizes and hashes only, no content)
+utc_date: 2026-11-25
+written_utc: 2026-11-25T17:44:22Z
+rolling_sha256: bb1410e9af05b116defe7c31a470294972e41e4ff0005e2acef4bd1c3b393d26
+rule: sha256 of lines '<sha256>  <bytes>  <path>\n' sorted by path (path relative to raw/, or forward/<label>/... for forward-test forecast files); each file hashed over its first <bytes> bytes
+files: 16
+
+411ad186591f5482522043c1f37875fecb2075f599e439cf9566277fe281ac6b  528  decisions/2026-11-25/contest_comments-00-20261125T004006-42065.jsonl.gz
+020099a842d658ec75c2b1981131fcb0e6bd3c4a648f7fe7e3023de0e8389b24  536  decisions/2026-11-25/contest_comments-03-20261125T034124-6090.jsonl.gz
+69ac287fdf21513e8ac0c5ee380cc9906663953b6b2ef748bc6a2558823e37c2  544  decisions/2026-11-25/contest_comments-06-20261125T064251-62654.jsonl.gz
+eb5e04d3a60b67b824f6cd6aa26d13613a501da6827de8d5de26694cdfbb3b52  530  decisions/2026-11-25/contest_comments-09-20261125T094426-2433.jsonl.gz
+59926b30026fc42782d09f3680d18509cb8bf99069d0ddfdb43d916406e5d0c5  1251  decisions/2026-11-25/contest_forecasts-00-20261125T004006-42065.jsonl.gz
+892436d61c54d3ca28132adeb4bb3b636064f91d9dd2d47bc23d5cb0ab45699c  1047  decisions/2026-11-25/contest_forecasts-03-20261125T034124-6090.jsonl.gz
+6401426233d7870c2f49e9af85014108bd2f6710282b4aeb29f484fc7f41a538  1104  decisions/2026-11-25/contest_forecasts-06-20261125T064251-62654.jsonl.gz
+e9c975d3236473cef463a213ab7dfc7a82a2d2fad82a3cd44469e54ae73a2bcf  1070  decisions/2026-11-25/contest_forecasts-09-20261125T094426-2433.jsonl.gz
+c8af193cc3e70f92706649020ee8806ef0f189eb20175860e7ca2b34fbd9c72a  231  decisions/2026-11-25/contest_submissions-00-20261125T004006-42065.jsonl.gz
+aaab15f399e97ee6892749fc891333a3f1ab2e73658f3be8bad28619144353c4  233  decisions/2026-11-25/contest_submissions-03-20261125T034124-6090.jsonl.gz
+8acf8607459198430ecf89ffd0af7d305ac2e7f0a854dafe5eeef4516e2de14a  233  decisions/2026-11-25/contest_submissions-06-20261125T064251-62654.jsonl.gz
+c81f4257c8aac9af816c3b827ed69f9d954ba5f42fc67f8d418b490db45b75b8  232  decisions/2026-11-25/contest_submissions-09-20261125T094426-2433.jsonl.gz
+0a4e23daca8be87c7e3395772d8f6c66664627d95026cbcf7b1d3c20ad2ecacc  388741  forward/proving_ground_v1/treasury/2026-11-25T123006Z.jsonl
+bf62cf4768d9b8a0340323dcacd6d24eccb909f638112969f040c4af84b1c4f1  260389  forward/weather_multimodel_m5/2026-11-26.json
+bd15ec8a57455b3c985f544b34d1f675f712fd54ec63556525e276a91ef1ec45  62430  forward/weather_v2_highs/2026-11-26.json
+f692fc3e294b49e763ae1eb54714cc856c38d74d4c3f70b5c750520acd237777  63765  forward/weather_v2_lows/2026-11-26.json
