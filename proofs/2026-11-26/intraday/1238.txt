@@ -1,0 +1,14 @@
+Lens & Ledger decision-log and forward-forecast fingerprint (paths, sizes and hashes only, no content)
+utc_date: 2026-11-26
+written_utc: 2026-11-26T12:38:14Z
+rolling_sha256: 32f4e49b5821b020e74b6fef69772b337e616bc8b9c73cb9af35f9fdd8d41316
+rule: sha256 of lines '<sha256>  <bytes>  <path>\n' sorted by path (path relative to raw/, or forward/<label>/... for forward-test forecast files); each file hashed over its first <bytes> bytes
+files: 7
+
+d7f443ad88854094bb6c1db3aa73c67b9643de7c2a450fe425ecebbb3c94c268  536  decisions/2026-11-26/contest_comments-03-20261126T031718-70862.jsonl.gz
+fbb7bbb77866f3f68d2369b8d3fb720701af1062cccfde297027bffd2e245c83  542  decisions/2026-11-26/contest_comments-12-20261126T122725-61659.jsonl.gz
+5eabca0506b32a092157f2a9ff3d9eca77df2fb0bca43e80aa63bae752841aac  1032  decisions/2026-11-26/contest_forecasts-03-20261126T031718-70862.jsonl.gz
+6b8a5d5179c9febd9e8ad70cdd0ab5a7d378be0240d393b7a51802fa0e980178  2857  decisions/2026-11-26/contest_forecasts-12-20261126T122725-61659.jsonl.gz
+dbe0801071237f211e64097411bafe31634e02e39a87937a66e810b068a1829f  231  decisions/2026-11-26/contest_submissions-03-20261126T031718-70862.jsonl.gz
+b2137c3f2b42eb25ee58220b080672694635d950a3b94a584ec1c660f80baa9f  233  decisions/2026-11-26/contest_submissions-12-20261126T122725-61659.jsonl.gz
+4cc6764a59833e29ff8ded89e6ff1f8c03f799d32ea937755d1ac5a26ef39e82  56363  forward/proving_ground_v1/claims/2026-11-26T123008Z.jsonl
