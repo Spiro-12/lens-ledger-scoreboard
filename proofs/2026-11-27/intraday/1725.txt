@@ -1,0 +1,18 @@
+Lens & Ledger decision-log and forward-forecast fingerprint (paths, sizes and hashes only, no content)
+utc_date: 2026-11-27
+written_utc: 2026-11-27T17:25:36Z
+rolling_sha256: 834b00d0064bbdc3c5f88f25a6fbe043ee7ed8309b35828298c95b707de121fa
+rule: sha256 of lines '<sha256>  <bytes>  <path>\n' sorted by path (path relative to raw/, or forward/<label>/... for forward-test forecast files); each file hashed over its first <bytes> bytes
+files: 11
+
+77de19d3f5278e47251095bb0fce19557dfd0e233908c285011c545f7b640ae1  539  decisions/2026-11-27/contest_comments-00-20261127T001246-15724.jsonl.gz
+3afdeaa720c1a1fa2b1ed693f79282b4deb74a40fd0739921de66dc144ef6f1f  542  decisions/2026-11-27/contest_comments-09-20261127T093140-46465.jsonl.gz
+939ec5dd68242fec993c50e44dcd7fff6b6d993dcccc94ed08d84acf3ce0fcb2  538  decisions/2026-11-27/contest_comments-12-20261127T123415-62209.jsonl.gz
+9328afc173794efaa6329511f5a7a8f95c93e2ed9d87e24e00045f28d9a3c8bb  1055  decisions/2026-11-27/contest_forecasts-00-20261127T001246-15724.jsonl.gz
+a2b4ef58a30bf6e0f0f86fb5b7e10a930f2989957af8d531c1e50fb0565d7af7  1086  decisions/2026-11-27/contest_forecasts-09-20261127T093140-46465.jsonl.gz
+3194842919d1c44f0f415304de07fc36a760af9696072ef5a1cc8a09a47d1be8  1120  decisions/2026-11-27/contest_forecasts-12-20261127T123415-62209.jsonl.gz
+5cbdd40f95f641efa667841dd2ba539bc7e579d1e8a5842a1d24ac8a5d718f2d  231  decisions/2026-11-27/contest_submissions-00-20261127T001246-15724.jsonl.gz
+0d02ae8953f961d60ba8ca7142ffe4374a73a25dae8f1ec66d398c60f725e764  232  decisions/2026-11-27/contest_submissions-09-20261127T093140-46465.jsonl.gz
+bb94b3c850410170e23445b2756cd7289a042a545765ab60a58f51602a04b81b  232  decisions/2026-11-27/contest_submissions-12-20261127T123415-62209.jsonl.gz
+2ae6b8ccaabc576b367116dbaf4b5918b67b8c177e05e095179e596be9acf67e  252958  forward/weather_multimodel_m5/2026-11-28.json
+11b61e42fcdc6fc990438019c7b154b31df9194086e2608e9146d9b37b82064a  58289  forward/weather_v2_lows/2026-11-28.json
